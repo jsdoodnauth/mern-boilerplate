@@ -1,0 +1,22 @@
+{
+  "name": "mern-boilerplate",
+  "version": "0.1.0",
+  "description": "Essentials only Boilerplate for new Mongo + React + NodeJS Projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "MERN",
+    "Boilerplate",
+    "React",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "Joshua Doodnauth",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
