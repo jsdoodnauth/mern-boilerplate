@@ -2,10 +2,10 @@
   "name": "mern-boilerplate",
   "version": "0.1.0",
   "description": "Essentials only Boilerplate for new Mongo + React + NodeJS Projects",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "keywords": [
     "MERN",
@@ -14,6 +14,10 @@
     "NodeJS",
     "JavaScript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdoodnauth/mern-boilerplate.git"
+  },
   "author": "Joshua Doodnauth",
   "license": "MIT",
   "dependencies": {
