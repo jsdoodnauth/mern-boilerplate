@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 
 const config = require('./config');
 const app = express();
@@ -29,5 +30,9 @@ require('./routes')(app);
 /**
  * Start the server and listen for requests
  */
+app.use(express.static(path.join(__dirname, '../client/build')));
 app.listen(config.PORT, () => console.log(`App is listening on port ${config.PORT}`));
 app.get('/', (req, res) => res.send('Hello there'));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+});
