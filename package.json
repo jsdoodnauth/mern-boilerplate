@@ -1,6 +1,6 @@
 {
   "name": "mern-boilerplate",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Essentials only Boilerplate for new Mongo + React + NodeJS Projects",
   "engines": {
     "node": "10.x"
