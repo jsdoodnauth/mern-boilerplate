@@ -7,6 +7,13 @@ From the root of the application:
 - To start the server: `npm run server`
 - To start client: `npm run client`
 
+# Basic MERN Config
+This branch is meant to be a very basic MERN setup to get any project started
+- Express routing has been scaffolded
+-- Healthcheck service provided at /api/healthcheck
+- Serving static client build (React app)
+- Mongo Database connection config
+
 ## Server (default to localhost:3001)
 - Mongoose/MongoDB
 - Express + Express Router
