@@ -55,7 +55,8 @@ router.post('/login', (req, res) => {
       if (IsMatch) {
         const payload = {
           id: user.id,
-          email: user.email
+          email: user.email,
+          role: user.role
         };
 
         //Sign Token
